@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+     
+    <title> Login Page</title>
+    
+    
+    <!-- Font Awesome -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <!-- Stylish Login Page CSS -->
+    <link rel="stylesheet" href="css/login-page.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" href="css/demo.css" />
+	</head>
+
+<style>
+body{
+        background: url(images/22.jpg) no-repeat;
+        background-size: 100%;
+    }
+
+.codehim-form{
+        max-width: 400px;
+        min-height: 400px;
+        box-sizing: border-box;
+        background: rgba(255, 255, 255, 0.6);
+        box-shadow: 4px 2px 16px rgba(0, 0, 0, 0.4);
+        border-radius: 8px;
+        margin:  20px auto 0 auto;
+        padding: 25px;
+        color: #000000;
+            
+    }
+    .cm-input{
+        display: block;
+        box-sizing: border-box;
+        padding: 10px;
+        width: 100%; 
+        margin: 14px auto;
+        border-radius: 20px;
+        border: 1px solid #ccc;
+        
+        
+    }
+    .cm-input:focus{
+        outline: 0;
+        border-color: #f9cb81;
+        
+    }
+    .cm-input:invalid{
+        border-color: #e41b17;
+        
+    }
+/* Login Button Design */
+    
+    .btn-login{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border: 0;
+        color:#000000;
+        border-radius: 20px;
+        cursor: pointer;
+        
+    }
+    .btn-login:focus{
+        outline: 0;
+    }
+    
+    .btn-login:hover{
+        opacity: 0.8;
+        transition: .3s;
+    }
+    
+    /* Gradient Background */
+    .gr-bg{
+        background: rgb(252,205,128);
+        background: #5B4218 100%);   
+    }
+/* For, tiele */
+    .form-title{
+        padding: 12px;
+        text-align: center;
+        position: relative;
+    }
+    .form-title h2{
+        color: #5B4218;
+    }
+    .form-title .user-icon{
+        position: absolute;
+        font-size: 42px;
+        color: #000000;
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        text-align: center;
+        border-radius: 45px;
+        top: -60px;
+        left: -45px;
+}
+</style>
+</head>
+<body>
+
+<form class="codehim-form">
+   <div class="form-title">
+      <div class="user-icon gr-bg">
+         <i class="fa fa-user"></i>
+      </div>
+      <h2> High-Rise Realty Inc</h2>
+   </div>
+   <label for="email"><i class="fa fa-envelope"></i> Email:</label>
+   <input type="email" id="email" class="cm-input" placeholder="Enter your email adress">
+   <label for="pass"><i class="fa fa-lock"></i> Password:</label>
+   <input id="pass" type="password" class="cm-input" placeholder="Enter your password">
+   <button type="submit" class="btn-login  gr-bg"><a href=" home.html">Login</button>
+</div>
+</div>
+
+</body>
+</html>
